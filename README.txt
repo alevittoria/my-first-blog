@@ -31,4 +31,17 @@ BASH COMMAND:
 		python manage.py createsuperuser			#devo ricreare il superuser su pythonanywhere
 		
 		
-Sono arrivato alla sezione 12
+		//console Django
+		python manage.py shell							#permette di entrare nella console di django
+		from nomeapp.models import nome-classe-oggetto	#permette di importare la classe a cui si vuole accedere
+		nome-classe-oggetto.objects.all()				#prendo tutti gli oggetti di quella classe
+		nome-classe-oggetto.objects.create(...)			#permette di creare un nuovo oggetto da shell
+		nome-classe-oggetto.objects.filter(...)			#permette di filtrare all interno della tabella
+		nome-classe-oggetto.objects.order_by(...)		#permette di ordinare gli oggetti
+		oggetto-da-pubblicare.publish()
+		
+		
+		
+		
+		
+Sono arrivato alla sezione 17
